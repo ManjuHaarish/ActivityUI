@@ -7,8 +7,7 @@
     padding: 80px;
     }
   
-  
-    .InputText{
+.InputText{
         display: block;
         padding: .375rem .75rem;
         font-size: 2rem;
@@ -56,6 +55,14 @@
     height: 10%;
     width: 20%;
     position:fixed;
+    }
+
+    .formHeading{
+    background-color: transparent;
+    color: black;
+    font-size: 4rem;
+    height: 20%;
+    width: 20%;
     }
 
 
