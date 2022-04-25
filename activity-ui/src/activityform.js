@@ -46,6 +46,7 @@ class ActivityForm extends Component{
 render(){
     const{name,description,fromDate,toDate} = this.state
     return(
+        <div style={{ display: 'flex',flexGrow: 1}}>
         <form  className="FormText" onSubmit={this.submitHandler}>
             <div className="formHeading"> Activity </div>
             <br/>
@@ -62,6 +63,7 @@ render(){
             <span> Submit </span>
             </button>
         </form>
+        </div>
 
     );
     

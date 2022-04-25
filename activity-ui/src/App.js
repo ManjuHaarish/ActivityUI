@@ -1,13 +1,15 @@
+import ActivityGrid from "./activitygrid/activitygrid";
 import ActivityForm from "./activityform";
 
 
 function App() {
   return (
-    <div className="form"> 
-      <span/>
-      <ActivityForm/>
-    </div>
-  );
-}
+   <div>
+      <ActivityGrid/>
+      <div>
+     <ActivityForm/>
+   </div>
+   </div>
+  );}
 
 export default App;
